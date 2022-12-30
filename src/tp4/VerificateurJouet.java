@@ -34,7 +34,7 @@ public class VerificateurJouet implements Runnable { //implements Runnable
 		
 	}
 	// partie 1
-	/*
+	
 	private void verifieJouet(int nbr)
 	{
 		Random r=new Random();
@@ -49,5 +49,5 @@ public class VerificateurJouet implements Runnable { //implements Runnable
 		
 		
 	}
-	*/
+	
 }
