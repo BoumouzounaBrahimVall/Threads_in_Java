@@ -1,4 +1,4 @@
-package tp4;
+package P4;
 
 public class Simulation {
 	public static Jouet[] jouets =new Jouet[10];
@@ -9,12 +9,12 @@ public class Simulation {
 			jouets[i]=new Jouet(i);
 		}
 		
-		VerificateurJouet Ahmed=new VerificateurJouet("Ahmed",1,20);
-		VerificateurJouet Amine=new VerificateurJouet("Amine",1,10);
-		VerificateurJouet Rachid=new VerificateurJouet("Rachid",2,5);
+		VerificateurJouet Ahmed=new VerificateurJouet("Ahmed",1,100);
+		VerificateurJouet Amine=new VerificateurJouet("Amine",1,100);
+		VerificateurJouet Bachid=new VerificateurJouet("Bachid",2,5);
 		Ahmed.p.start();
 		Amine.p.start();
-		Rachid.p.start();
+		Bachid.p.start();
 		
 	}
 }
