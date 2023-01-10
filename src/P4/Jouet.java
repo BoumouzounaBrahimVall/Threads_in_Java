@@ -33,19 +33,15 @@ public class Jouet {
 			}
 		
 				showSleepShow(v);
+				return;
 
 		}
 		// traitment faite par Amine ou Ahmed
-		if (v.getNiveau() == 1 ) {
-			
-			
+		synchronized(this) {
 			if(dejaVerifie )return;
-			synchronized(this) {
 			dejaVerifie = true;
 			showSleepShow(v);
 			notifyAll();}
-		}
-
 
 	}
 }

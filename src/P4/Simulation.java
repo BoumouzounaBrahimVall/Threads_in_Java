@@ -9,7 +9,7 @@ public class Simulation {
 			jouets[i]=new Jouet(i);
 		}
 		
-		VerificateurJouet Ahmed=new VerificateurJouet("Ahmed",1,100);
+		VerificateurJouet Ahmed=new VerificateurJouet("Ahmed",1,30);
 		VerificateurJouet Amine=new VerificateurJouet("Amine",1,100);
 		VerificateurJouet Bachid=new VerificateurJouet("Bachid",2,5);
 		Ahmed.p.start();
