@@ -29,11 +29,11 @@ public class Jouet {
 			synchronized(this) {
 			while (!dejaVerifie) {
 				
-				try {v.p.wait();} catch (InterruptedException e1) {}}
-			}
+				try {this.wait();} catch (InterruptedException e1) {}}
+			
 		
-				showSleepShow(v);
-				return;
+			showSleepShow(v);}
+			return;
 
 		}
 		// traitment faite par Amine ou Ahmed
